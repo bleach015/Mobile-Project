@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var favDishBtn: UIButton!
+    @IBOutlet weak var favRestaurantBtn: UIButton!
+    @IBOutlet weak var historyBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        customizeButton(buttonName: favDishBtn)
+        customizeButton(buttonName: favRestaurantBtn)
+        customizeButton(buttonName: historyBtn)
     }
 
-
+    func customizeButton(buttonName:UIButton) {
+        buttonName.layer.borderWidth = 3
+    }
 }
 
