@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y02-4A-8fz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y02-4A-8fz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -41,7 +41,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="McG-I2-tw8">
-                                <rect key="frame" x="187" y="654" width="207" height="40"/>
+                                <rect key="frame" x="170" y="654" width="207" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="   Favorite Restaurant">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -58,16 +58,16 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="uAx-4h-Hpf" firstAttribute="trailing" secondItem="HRD-gS-wTE" secondAttribute="trailing" id="1LS-4t-zfO"/>
-                            <constraint firstItem="bb7-pk-yq9" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" constant="33" id="2TE-Rq-UTn"/>
                             <constraint firstItem="uAx-4h-Hpf" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" id="3QP-fJ-X8h"/>
                             <constraint firstItem="RCC-Fv-F5Q" firstAttribute="centerX" secondItem="HRD-gS-wTE" secondAttribute="centerX" id="3aB-hq-hQe"/>
                             <constraint firstItem="thN-Oi-g5n" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="5xo-ry-Xn7"/>
+                            <constraint firstItem="bb7-pk-yq9" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" constant="33" id="8W3-am-y5l"/>
+                            <constraint firstItem="McG-I2-tw8" firstAttribute="leading" secondItem="bb7-pk-yq9" secondAttribute="trailing" constant="8" id="E8D-ad-Ssq"/>
+                            <constraint firstItem="HRD-gS-wTE" firstAttribute="trailing" secondItem="McG-I2-tw8" secondAttribute="trailing" constant="37" id="ER8-CV-YK7"/>
                             <constraint firstItem="thN-Oi-g5n" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.206473" id="HxB-io-bpr"/>
                             <constraint firstItem="thN-Oi-g5n" firstAttribute="top" secondItem="uAx-4h-Hpf" secondAttribute="bottom" constant="47" id="KTc-JB-C3t"/>
                             <constraint firstItem="thN-Oi-g5n" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" id="MW9-lq-got"/>
-                            <constraint firstItem="bb7-pk-yq9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.311594" id="Mc1-rE-25Q"/>
                             <constraint firstItem="McG-I2-tw8" firstAttribute="top" secondItem="thN-Oi-g5n" secondAttribute="bottom" constant="45" id="SNU-b9-PYx"/>
-                            <constraint firstItem="McG-I2-tw8" firstAttribute="leading" secondItem="bb7-pk-yq9" secondAttribute="trailing" constant="25" id="bRy-1Z-FUH"/>
                             <constraint firstItem="rR0-lG-Z3z" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.432367" id="dF5-Rv-9Rm"/>
                             <constraint firstItem="uAx-4h-Hpf" firstAttribute="top" secondItem="RCC-Fv-F5Q" secondAttribute="bottom" constant="56" id="dO6-s6-lFc"/>
                             <constraint firstItem="rR0-lG-Z3z" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0446429" id="gez-8L-fi8"/>
@@ -78,9 +78,6 @@
                             <constraint firstItem="uAx-4h-Hpf" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.206473" id="imb-ge-joX"/>
                             <constraint firstItem="uAx-4h-Hpf" firstAttribute="centerX" secondItem="HRD-gS-wTE" secondAttribute="centerX" id="jRi-0T-KXf"/>
                             <constraint firstItem="bb7-pk-yq9" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0446429" id="kTE-zx-wTh"/>
-                            <constraint firstItem="rR0-lG-Z3z" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" constant="117.5" id="lPX-xI-Bcx"/>
-                            <constraint firstItem="HRD-gS-wTE" firstAttribute="trailing" secondItem="McG-I2-tw8" secondAttribute="trailing" constant="20" id="lWP-Fk-Xff"/>
-                            <constraint firstItem="McG-I2-tw8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="nFa-J7-vWj"/>
                             <constraint firstItem="rR0-lG-Z3z" firstAttribute="top" secondItem="McG-I2-tw8" secondAttribute="bottom" constant="56" id="oYO-sc-fLt"/>
                             <constraint firstItem="McG-I2-tw8" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0446429" id="qFm-0n-vwd"/>
                             <constraint firstItem="thN-Oi-g5n" firstAttribute="trailing" secondItem="HRD-gS-wTE" secondAttribute="trailing" id="sYP-uA-J7I"/>
@@ -111,13 +108,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJY-EC-ina">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJY-EC-ina">
                                 <rect key="frame" x="59" y="151" width="296" height="393"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="food-gacha"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ZJY-EC-ina" firstAttribute="top" secondItem="Erh-rw-dSH" secondAttribute="top" constant="63" id="65d-bv-Mow"/>
+                            <constraint firstItem="ZJY-EC-ina" firstAttribute="centerX" secondItem="Erh-rw-dSH" secondAttribute="centerX" id="UHn-nl-Msj"/>
+                            <constraint firstItem="ZJY-EC-ina" firstAttribute="height" secondItem="tx0-QE-xFI" secondAttribute="height" multiplier="0.438616" id="x4n-wp-75h"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Erh-rw-dSH"/>
                     </view>
                     <navigationItem key="navigationItem" title="Random Food" id="APr-TP-pCc"/>
