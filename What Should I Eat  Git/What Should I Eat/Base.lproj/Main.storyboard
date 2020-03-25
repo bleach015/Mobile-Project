@@ -58,6 +58,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="uAx-4h-Hpf" firstAttribute="trailing" secondItem="HRD-gS-wTE" secondAttribute="trailing" id="1LS-4t-zfO"/>
+                            <constraint firstItem="bb7-pk-yq9" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" constant="33" id="2TE-Rq-UTn"/>
                             <constraint firstItem="uAx-4h-Hpf" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" id="3QP-fJ-X8h"/>
                             <constraint firstItem="RCC-Fv-F5Q" firstAttribute="centerX" secondItem="HRD-gS-wTE" secondAttribute="centerX" id="3aB-hq-hQe"/>
                             <constraint firstItem="thN-Oi-g5n" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="5xo-ry-Xn7"/>
@@ -66,7 +67,6 @@
                             <constraint firstItem="thN-Oi-g5n" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" id="MW9-lq-got"/>
                             <constraint firstItem="bb7-pk-yq9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.311594" id="Mc1-rE-25Q"/>
                             <constraint firstItem="McG-I2-tw8" firstAttribute="top" secondItem="thN-Oi-g5n" secondAttribute="bottom" constant="45" id="SNU-b9-PYx"/>
-                            <constraint firstItem="bb7-pk-yq9" firstAttribute="leading" secondItem="HRD-gS-wTE" secondAttribute="leading" constant="33" id="Yo9-Uh-JOY"/>
                             <constraint firstItem="McG-I2-tw8" firstAttribute="leading" secondItem="bb7-pk-yq9" secondAttribute="trailing" constant="25" id="bRy-1Z-FUH"/>
                             <constraint firstItem="rR0-lG-Z3z" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.432367" id="dF5-Rv-9Rm"/>
                             <constraint firstItem="uAx-4h-Hpf" firstAttribute="top" secondItem="RCC-Fv-F5Q" secondAttribute="bottom" constant="56" id="dO6-s6-lFc"/>
